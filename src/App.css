@@ -1,38 +1,62 @@
-.App {
-  text-align: center;
-}
+/* NAVBAR */
+header {
+  position: sticky;
+  background-color: peachpuff;
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
   display: flex;
-  flex-direction: column;
+  flex-flow: row wrap;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  justify-content: space-between;
+
+  font-size: 1.3rem;
 }
 
-.App-link {
-  color: #61dafb;
+img {
+  height: 5rem;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+nav>li {
+  margin: 0 20px;
+
+  list-style: none;
+
+  display: inline-block;
+}
+
+nav>li>a {
+  text-decoration: none;
+}
+
+nav>li>a:hover {
+  text-decoration: underline;
+}
+
+/* HOME */
+#home {
+  background-color: papayawhip;
+}
+
+/* ISLAND */
+#island {
+  background-color: papayawhip;
+}
+
+#island>h3>a {
+  text-decoration: none;
+}
+
+#island>ul>li {
+  display: flex;
+  flex-wrap: nowrap;
+  align-items: center;
+}
+
+#island>ul>li>img {
+  height: 1.5em;
+  padding-left: 10px;
+}
+
+/* VILLAGERS */
+#villagers {
+  background-color: papayawhip;
 }
