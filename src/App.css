@@ -1,12 +1,20 @@
+.anchor {
+  scroll-margin-top: 70px;
+}
+
 /* NAVBAR */
 header {
-  position: sticky;
   background-color: peachpuff;
 
   display: flex;
   flex-flow: row wrap;
   align-items: center;
   justify-content: space-between;
+
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 1;
 
   font-size: 1.3rem;
 }
@@ -16,14 +24,14 @@ img {
 }
 
 nav>li {
+  display: inline-block;
   margin: 0 20px;
 
   list-style: none;
-
-  display: inline-block;
 }
 
 nav>li>a {
+  color: black;
   text-decoration: none;
 }
 
@@ -34,11 +42,25 @@ nav>li>a:hover {
 /* HOME */
 #home {
   background-color: papayawhip;
+  margin-top: 80px;
+  padding: 5rem;
+
+  text-align: center;
 }
 
 /* ISLAND */
 #island {
   background-color: papayawhip;
+  padding: 3rem;
+}
+
+#island>div {
+  display: flex;
+}
+
+#island>div>p {
+  min-width: 30rem;
+  max-width: 70rem;
 }
 
 #island>h3>a {
@@ -59,4 +81,9 @@ nav>li>a:hover {
 /* VILLAGERS */
 #villagers {
   background-color: papayawhip;
+  padding: 30px;
+}
+
+#current-villagers {
+  padding: 30px;
 }

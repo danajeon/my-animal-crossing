@@ -1,8 +1,30 @@
+import Card from 'react-bootstrap/Card';
+
 export const Island = () => {
     return (
-        <div id="island">
+        <div id="island" class="anchor">
             <h3>Introducing Nintenland</h3>
-            <p>Nintenland's name derives from the words "Nintendo" and "Land", and highlights my personal lack of creativity. It is a decision I regret but accept begrudgingly because, as a completionist, I'd rather not go through the pain of cataloging all 15,000+ items again.</p>
+            <div>
+                <p>Nintenland's name derives from the words "Nintendo" and "Land", and highlights my personal lack of creativity. It is a decision I regret but accept begrudgingly because, as a completionist, I'd rather not go through the pain of cataloging all 15,000+ items again.</p>
+
+                <Card style={{
+                    height: 200,
+                    width: 300,
+                    backgroundColor: 'ivory',
+                }}>
+                    <Card.Img variant="top" src="" style={{
+                        objectFit: 'contain',
+                        paddingTop: 10
+                    }} />
+                    <Card.Body>
+                        <Card.Text>
+                            <span>Native fruit: Cherries</span><br />
+                            <span>Island theme: Castlecore</span><br />
+                            <span>Airport color: Blue</span><br />
+                        </Card.Text>
+                    </Card.Body>
+                </Card>
+            </div>
 
             <h4>Stats:</h4>
             <ul>
@@ -34,11 +56,6 @@ export const Island = () => {
                     <img src="icons/star.png" alt="star" />
                 </li>
             </ul>
-
-            <span>Native fruit: Cherries</span>
-            <span>Island theme: Castlecore</span>
-            <span>Airport color: Blue</span>
-            <span>River mouth placement: South/West</span>
         </div>
     )
 }
