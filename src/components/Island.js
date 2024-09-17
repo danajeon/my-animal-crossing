@@ -1,6 +1,6 @@
 export const Island = () => {
     return (
-        <div id="island">
+        <div id="island" class="anchor">
             <h3>Introducing Nintenland</h3>
             <div>
                 <p>Nintenland's name derives from the words "Nintendo" and "Land", and highlights my personal lack of creativity. It is a decision I regret but accept begrudgingly because, as a completionist, I'd rather not go through the pain of cataloging all 15,000+ items again.</p>
