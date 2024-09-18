@@ -1,5 +1,5 @@
 .anchor {
-  scroll-margin-top: 70px;
+  scroll-margin-top: 8rem;
 }
 
 /* NAVBAR */
@@ -54,22 +54,15 @@ nav>li>a:hover {
   padding: 3rem;
 }
 
-#island>div>p {
-  min-width: 30rem;
-  max-width: 70rem;
-}
+
 
 #island>div>img {
   display: block;
   margin-left: auto;
   margin-right: auto;
   object-fit: cover;
-  width: 500px;
-  height: 300px;
-}
-
-#island>h3>a {
-  text-decoration: none;
+  width: 80%;
+  height: 30%;
 }
 
 #island>ul>li {
