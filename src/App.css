@@ -1,5 +1,5 @@
 .anchor {
-  scroll-margin-top: 8rem;
+  scroll-margin-top: 3rem;
 }
 
 /* NAVBAR */
@@ -13,19 +13,24 @@ header {
 
   position: fixed;
   top: 0;
+  height: 6.5vh;
   width: 100%;
   z-index: 1;
 
-  font-size: 1.3rem;
+  font-size: 1em;
 }
 
-img {
-  height: 5rem;
+.logo {
+  height: 5.5vh;
+
+  @media screen and (max-width: 373px) {
+    height: 3.5vh;
+  }
 }
 
 nav>li {
   display: inline-block;
-  margin: 0 20px;
+  margin: 0 1.5em;
 
   list-style: none;
 }
@@ -42,7 +47,7 @@ nav>li>a:hover {
 /* HOME */
 #home {
   background-color: papayawhip;
-  margin-top: 80px;
+  margin-top: 1rem;
   padding: 5rem;
 
   text-align: center;
@@ -60,6 +65,7 @@ nav>li>a:hover {
   display: block;
   margin-left: auto;
   margin-right: auto;
+  margin-bottom: 5%;
   object-fit: cover;
   width: 80%;
   height: 30%;
@@ -73,15 +79,11 @@ nav>li>a:hover {
 
 #island>ul>li>img {
   height: 1.5em;
-  padding-left: 10px;
+  padding-left: 1rem;
 }
 
 /* VILLAGERS */
 #villagers {
   background-color: papayawhip;
-  padding: 30px;
-}
-
-#current-villagers {
-  padding: 30px;
+  padding: 3rem;
 }

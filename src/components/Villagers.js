@@ -14,10 +14,11 @@ export const Villagers = () => {
                         {/* Fauna */}
                         <Card style={{
                             height: 250,
-                            width: 300,
+                            width: 250,
                             backgroundColor: 'ivory'
                         }}>
                             <Card.Img variant="top" src="icons/Fauna.png" style={{
+                                height: '5rem',
                                 objectFit: 'contain',
                                 paddingTop: 10
                             }} />
@@ -37,10 +38,11 @@ export const Villagers = () => {
                         {/* Coco */}
                         <Card style={{
                             height: 250,
-                            width: 300,
+                            width: 250,
                             backgroundColor: 'ivory'
                         }}>
                             <Card.Img variant="top" src="icons/Coco.png" style={{
+                                height: '5rem',
                                 objectFit: 'contain',
                                 paddingTop: 10
                             }} />
@@ -60,10 +62,11 @@ export const Villagers = () => {
                         {/* Zucker */}
                         <Card style={{
                             height: 250,
-                            width: 300,
+                            width: 250,
                             backgroundColor: 'ivory'
                         }}>
                             <Card.Img variant="top" src="icons/Zucker.png" style={{
+                                height: '5rem',
                                 objectFit: 'contain',
                                 paddingTop: 10
                             }} />
@@ -83,10 +86,11 @@ export const Villagers = () => {
                         {/* Judy */}
                         <Card style={{
                             height: 250,
-                            width: 300,
+                            width: 250,
                             backgroundColor: 'ivory'
                         }}>
                             <Card.Img variant="top" src="icons/Judy.png" style={{
+                                height: '5rem',
                                 objectFit: 'contain',
                                 paddingTop: 10
                             }} />
@@ -106,10 +110,11 @@ export const Villagers = () => {
                         {/* Merengue */}
                         <Card style={{
                             height: 250,
-                            width: 300,
+                            width: 250,
                             backgroundColor: 'ivory'
                         }}>
                             <Card.Img variant="top" src="icons/Merengue.png" style={{
+                                height: '5rem',
                                 objectFit: 'contain',
                                 paddingTop: 10
                             }} />
@@ -132,10 +137,11 @@ export const Villagers = () => {
                         {/* Molly */}
                         <Card style={{
                             height: 250,
-                            width: 300,
+                            width: 250,
                             backgroundColor: 'ivory'
                         }}>
                             <Card.Img variant="top" src="icons/Molly.png" style={{
+                                height: '5rem',
                                 objectFit: 'contain',
                                 paddingTop: 10
                             }} />
@@ -155,10 +161,11 @@ export const Villagers = () => {
                         {/* Shino */}
                         <Card style={{
                             height: 250,
-                            width: 300,
+                            width: 250,
                             backgroundColor: 'ivory'
                         }}>
                             <Card.Img variant="top" src="icons/Shino.png" style={{
+                                height: '5rem',
                                 objectFit: 'contain',
                                 paddingTop: 10
                             }} />
@@ -178,10 +185,11 @@ export const Villagers = () => {
                         {/* Julian */}
                         <Card style={{
                             height: 250,
-                            width: 300,
+                            width: 250,
                             backgroundColor: 'ivory'
                         }}>
                             <Card.Img variant="top" src="icons/Julian.png" style={{
+                                height: '5rem',
                                 objectFit: 'contain',
                                 paddingTop: 10
                             }} />
@@ -201,10 +209,11 @@ export const Villagers = () => {
                         {/* Ione */}
                         <Card style={{
                             height: 250,
-                            width: 300,
+                            width: 250,
                             backgroundColor: 'ivory'
                         }}>
                             <Card.Img variant="top" src="icons/Ione.png" style={{
+                                height: '5rem',
                                 objectFit: 'contain',
                                 paddingTop: 10
                             }} />
@@ -224,10 +233,11 @@ export const Villagers = () => {
                         {/* Tia */}
                         <Card style={{
                             height: 250,
-                            width: 300,
+                            width: 250,
                             backgroundColor: 'ivory'
                         }}>
                             <Card.Img variant="top" src="icons/Tia.png" style={{
+                                height: '5rem',
                                 objectFit: 'contain',
                                 paddingTop: 10
                             }} />
