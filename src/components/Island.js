@@ -9,31 +9,40 @@ export const Island = () => {
 
             <h4>Stats:</h4>
             <ul>
-                <li>Fish caught: 80/80
+                <li>Fish caught:</li>
+                <li>80/80
                     <img src="icons/sea-bass.png" alt="sea-bass" />
                 </li>
-                <li>Bugs caught: 80/80
+                <li>Bugs caught: </li>
+                <li>80/80
                     <img src="icons/paper-kite-butterfly.png" alt="paper-kite-butterfly" />
                 </li>
-                <li>Deep-sea creatures caught: 40/40
+                <li>Deep-sea creatures caught: </li>
+                <li>40/40
                     <img src="icons/scallop.png" alt="scallop" />
                 </li>
-                <li>Art pieces collected: 42/42
+                <li>Art pieces collected: </li>
+                <li>42/42
                     <img src="icons/art.png" alt="art" />
                 </li>
-                <li>Fossils discovered: 73/73
+                <li>Fossils discovered: </li>
+                <li>73/73
                     <img src="icons/fossil.png" alt="fossil" />
                 </li>
-                <li>Gyroids discovered: 36/36
+                <li>Gyroids discovered: </li>
+                <li>36/36
                     <img src="icons/gyroid.png" alt="gyroid" />
                 </li>
-                <li>DIY recipes discovered: 924/924
+                <li>DIY recipes discovered: </li>
+                <li>924/924
                     <img src="icons/diy.png" alt="diy" />
                 </li>
-                <li>Golden tools: 6/6
+                <li>Golden tools: </li>
+                <li>6/6
                     <img src="icons/golden-tool.png" alt="golden-tool" />
                 </li>
-                <li>Island stars: 5/5
+                <li>Island stars: </li>
+                <li>5/5
                     <img src="icons/star.png" alt="star" />
                 </li>
             </ul>

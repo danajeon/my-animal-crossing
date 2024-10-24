@@ -59,8 +59,6 @@ nav>li>a:hover {
   padding: 3rem;
 }
 
-
-
 #island>div>img {
   display: block;
   margin-left: auto;
@@ -73,17 +71,30 @@ nav>li>a:hover {
 
 #island>ul>li {
   display: flex;
-  flex-wrap: nowrap;
+  flex-wrap: wrap;
   align-items: center;
+  font-size: 1rem;
 }
 
 #island>ul>li>img {
-  height: 1.5em;
-  padding-left: 1rem;
+  height: 1rem;
+  width: auto;
+  padding-left: 0.5rem;
+}
+
+#island>ul>li:has(img) {
+  margin-bottom: 0.5rem;
 }
 
 /* VILLAGERS */
 #villagers {
   background-color: papayawhip;
   padding: 3rem;
+}
+
+#villagersCard {
+  background-color: linen;
+  width: 12rem;
+  padding: 1rem;
+  margin: 1rem;
 }

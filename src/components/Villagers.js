@@ -1,262 +1,77 @@
-import Button from 'react-bootstrap/Button';
-import Card from 'react-bootstrap/Card';
-import Col from 'react-bootstrap/Col';
-import Row from 'react-bootstrap/Row';
+import { VillagersCard } from './VillagersCard';
 
 export const Villagers = () => {
+    // Villagers data
+    const cardsData = [
+        {
+            name: 'Fauna',
+            personality: 'Normal',
+            image: '/icons/Fauna.png',
+            url: 'https://nookipedia.com/wiki/Fauna'
+        },
+        {
+            name: 'Molly',
+            personality: 'Normal',
+            image: '/icons/Molly.png',
+            url: 'https://nookipedia.com/wiki/Molly'
+        },
+        {
+            name: 'Coco',
+            personality: 'Normal',
+            image: 'icons/Coco.png',
+            url: 'https://nookipedia.com/wiki/Coco'
+        },
+        {
+            name: 'Zucker',
+            personality: 'Lazy',
+            image: 'icons/Zucker.png',
+            url: 'https://nookipedia.com/wiki/Zucker'
+        },
+        {
+            name: 'Julian',
+            personality: 'Smug',
+            image: 'icons/Julian.png',
+            url: 'https://nookipedia.com/wiki/Julian'
+        },
+        {
+            name: 'Judy',
+            personality: 'Snooty',
+            image: 'icons/Judy.png',
+            url: 'https://nookipedia.com/wiki/Judy'
+        },
+        {
+            name: 'Ione',
+            personality: 'Normal',
+            image: 'icons/Ione.png',
+            url: 'https://nookipedia.com/wiki/Ione'
+        },
+        {
+            name: 'Shino',
+            personality: 'Peppy',
+            image: 'icons/Shino.png',
+            url: 'https://nookipedia.com/wiki/Shino'
+        },
+        {
+            name: 'Merengue',
+            personality: 'Normal',
+            image: 'icons/Merengue.png',
+            url: 'https://nookipedia.com/wiki/Merengue'
+        },
+        {
+            name: 'Tia',
+            personality: 'Normal',
+            image: 'icons/Tia.png',
+            url: 'https://nookipedia.com/wiki/Tia'
+        }
+    ]
+
+
     return (
         <div id="villagers" class="anchor">
             <h3>Current Villagers:</h3>
-            <div id="current-villagers">
-                <Row xs={1} md={2} className="g-4">
-                    <Col>
-
-                        {/* Fauna */}
-                        <Card style={{
-                            height: 250,
-                            width: 250,
-                            backgroundColor: 'ivory'
-                        }}>
-                            <Card.Img variant="top" src="icons/Fauna.png" style={{
-                                height: '5rem',
-                                objectFit: 'contain',
-                                paddingTop: 10
-                            }} />
-                            <Card.Body>
-                                <Card.Title>Fauna</Card.Title>
-                                <Card.Text>
-                                    Personality: Normal
-                                </Card.Text>
-                                <Button href="https://nookipedia.com/wiki/Fauna" target="_blank" variant="light" style={{
-                                    borderColor: 'black',
-                                    display: 'block',
-                                    margin: 'auto'
-                                }}>View Wiki</Button>
-                            </Card.Body>
-                        </Card>
-
-                        {/* Coco */}
-                        <Card style={{
-                            height: 250,
-                            width: 250,
-                            backgroundColor: 'ivory'
-                        }}>
-                            <Card.Img variant="top" src="icons/Coco.png" style={{
-                                height: '5rem',
-                                objectFit: 'contain',
-                                paddingTop: 10
-                            }} />
-                            <Card.Body>
-                                <Card.Title>Coco</Card.Title>
-                                <Card.Text>
-                                    Personality: Normal
-                                </Card.Text>
-                                <Button href="https://nookipedia.com/wiki/Coco" target="_blank" variant="light" style={{
-                                    borderColor: 'black',
-                                    display: 'block',
-                                    margin: 'auto'
-                                }}>View Wiki</Button>
-                            </Card.Body>
-                        </Card>
-
-                        {/* Zucker */}
-                        <Card style={{
-                            height: 250,
-                            width: 250,
-                            backgroundColor: 'ivory'
-                        }}>
-                            <Card.Img variant="top" src="icons/Zucker.png" style={{
-                                height: '5rem',
-                                objectFit: 'contain',
-                                paddingTop: 10
-                            }} />
-                            <Card.Body>
-                                <Card.Title>Zucker</Card.Title>
-                                <Card.Text>
-                                    Personality: Lazy
-                                </Card.Text>
-                                <Button href="https://nookipedia.com/wiki/Zucker" target="_blank" variant="light" style={{
-                                    borderColor: 'black',
-                                    display: 'block',
-                                    margin: 'auto'
-                                }}>View Wiki</Button>
-                            </Card.Body>
-                        </Card>
-
-                        {/* Judy */}
-                        <Card style={{
-                            height: 250,
-                            width: 250,
-                            backgroundColor: 'ivory'
-                        }}>
-                            <Card.Img variant="top" src="icons/Judy.png" style={{
-                                height: '5rem',
-                                objectFit: 'contain',
-                                paddingTop: 10
-                            }} />
-                            <Card.Body>
-                                <Card.Title>Judy</Card.Title>
-                                <Card.Text>
-                                    Personality: Snooty
-                                </Card.Text>
-                                <Button href="https://nookipedia.com/wiki/Judy" target="_blank" variant="light" style={{
-                                    borderColor: 'black',
-                                    display: 'block',
-                                    margin: 'auto'
-                                }}>View Wiki</Button>
-                            </Card.Body>
-                        </Card>
-
-                        {/* Merengue */}
-                        <Card style={{
-                            height: 250,
-                            width: 250,
-                            backgroundColor: 'ivory'
-                        }}>
-                            <Card.Img variant="top" src="icons/Merengue.png" style={{
-                                height: '5rem',
-                                objectFit: 'contain',
-                                paddingTop: 10
-                            }} />
-                            <Card.Body>
-                                <Card.Title>Merengue</Card.Title>
-                                <Card.Text>
-                                    Personality: Normal
-                                </Card.Text>
-                                <Button href="https://nookipedia.com/wiki/Merengue" target="_blank" variant="light" style={{
-                                    borderColor: 'black',
-                                    display: 'block',
-                                    margin: 'auto'
-                                }}>View Wiki</Button>
-                            </Card.Body>
-                        </Card>
-
-                    </Col>
-                    <Col>
-
-                        {/* Molly */}
-                        <Card style={{
-                            height: 250,
-                            width: 250,
-                            backgroundColor: 'ivory'
-                        }}>
-                            <Card.Img variant="top" src="icons/Molly.png" style={{
-                                height: '5rem',
-                                objectFit: 'contain',
-                                paddingTop: 10
-                            }} />
-                            <Card.Body>
-                                <Card.Title>Molly</Card.Title>
-                                <Card.Text>
-                                    Personality: Normal
-                                </Card.Text>
-                                <Button href="https://nookipedia.com/wiki/Molly" target="_blank" variant="light" style={{
-                                    borderColor: 'black',
-                                    display: 'block',
-                                    margin: 'auto'
-                                }}>View Wiki</Button>
-                            </Card.Body>
-                        </Card>
-
-                        {/* Shino */}
-                        <Card style={{
-                            height: 250,
-                            width: 250,
-                            backgroundColor: 'ivory'
-                        }}>
-                            <Card.Img variant="top" src="icons/Shino.png" style={{
-                                height: '5rem',
-                                objectFit: 'contain',
-                                paddingTop: 10
-                            }} />
-                            <Card.Body>
-                                <Card.Title>Shino</Card.Title>
-                                <Card.Text>
-                                    Personality: Peppy
-                                </Card.Text>
-                                <Button href="https://nookipedia.com/wiki/Shino" target="_blank" variant="light" style={{
-                                    borderColor: 'black',
-                                    display: 'block',
-                                    margin: 'auto'
-                                }}>View Wiki</Button>
-                            </Card.Body>
-                        </Card>
-
-                        {/* Julian */}
-                        <Card style={{
-                            height: 250,
-                            width: 250,
-                            backgroundColor: 'ivory'
-                        }}>
-                            <Card.Img variant="top" src="icons/Julian.png" style={{
-                                height: '5rem',
-                                objectFit: 'contain',
-                                paddingTop: 10
-                            }} />
-                            <Card.Body>
-                                <Card.Title>Julian</Card.Title>
-                                <Card.Text>
-                                    Personality: Smug
-                                </Card.Text>
-                                <Button href="https://nookipedia.com/wiki/Julian" target="_blank" variant="light" style={{
-                                    borderColor: 'black',
-                                    display: 'block',
-                                    margin: 'auto'
-                                }}>View Wiki</Button>
-                            </Card.Body>
-                        </Card>
-
-                        {/* Ione */}
-                        <Card style={{
-                            height: 250,
-                            width: 250,
-                            backgroundColor: 'ivory'
-                        }}>
-                            <Card.Img variant="top" src="icons/Ione.png" style={{
-                                height: '5rem',
-                                objectFit: 'contain',
-                                paddingTop: 10
-                            }} />
-                            <Card.Body>
-                                <Card.Title>Ione</Card.Title>
-                                <Card.Text>
-                                    Personality: Normal
-                                </Card.Text>
-                                <Button href="https://nookipedia.com/wiki/Ione" target="_blank" variant="light" style={{
-                                    borderColor: 'black',
-                                    display: 'block',
-                                    margin: 'auto'
-                                }}>View Wiki</Button>
-                            </Card.Body>
-                        </Card>
-
-                        {/* Tia */}
-                        <Card style={{
-                            height: 250,
-                            width: 250,
-                            backgroundColor: 'ivory'
-                        }}>
-                            <Card.Img variant="top" src="icons/Tia.png" style={{
-                                height: '5rem',
-                                objectFit: 'contain',
-                                paddingTop: 10
-                            }} />
-                            <Card.Body>
-                                <Card.Title>Tia</Card.Title>
-                                <Card.Text>
-                                    Personality: Normal
-                                </Card.Text>
-                                <Button href="https://nookipedia.com/wiki/Tia" target="_blank" variant="light" style={{
-                                    borderColor: 'black',
-                                    display: 'block',
-                                    margin: 'auto'
-                                }}>View Wiki</Button>
-                            </Card.Body>
-                        </Card>
-
-                    </Col>
-                </Row>
-            </div>
+            {cardsData.map((card, index) => (
+                <VillagersCard key={index} {...card} />
+            ))}
         </div>
-    )
-}
+    );
+};
